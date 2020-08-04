@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway.WebApi.Weather", "ApiGateway.WebApi.Weather.csproj", "{B524DB5F-4ACD-4D52-9BFF-8205F325ED1F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway.WebApi.Users", "..\ApiGateway.WebApi.Users\ApiGateway.WebApi.Users.csproj", "{A0C504DC-0559-43A8-876B-9789F079D38D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway.Gateway", "..\ApiGateway.Gateway\ApiGateway.Gateway.csproj", "{6176F5AC-09EC-4077-AA33-C132B431D201}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiGateway.IdentityServer", "..\ApiGateway.IdentityServer\ApiGateway.IdentityServer.csproj", "{355F1070-14AC-41CE-A343-5949924B0A36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiGateway.MvcClient", "..\ApiGateway.MvcClient\ApiGateway.MvcClient.csproj", "{CB62D7BC-3024-4C0F-80D2-9215A226C576}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B524DB5F-4ACD-4D52-9BFF-8205F325ED1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B524DB5F-4ACD-4D52-9BFF-8205F325ED1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B524DB5F-4ACD-4D52-9BFF-8205F325ED1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B524DB5F-4ACD-4D52-9BFF-8205F325ED1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0C504DC-0559-43A8-876B-9789F079D38D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C504DC-0559-43A8-876B-9789F079D38D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C504DC-0559-43A8-876B-9789F079D38D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C504DC-0559-43A8-876B-9789F079D38D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6176F5AC-09EC-4077-AA33-C132B431D201}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6176F5AC-09EC-4077-AA33-C132B431D201}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6176F5AC-09EC-4077-AA33-C132B431D201}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6176F5AC-09EC-4077-AA33-C132B431D201}.Release|Any CPU.Build.0 = Release|Any CPU
+		{355F1070-14AC-41CE-A343-5949924B0A36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{355F1070-14AC-41CE-A343-5949924B0A36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{355F1070-14AC-41CE-A343-5949924B0A36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{355F1070-14AC-41CE-A343-5949924B0A36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB62D7BC-3024-4C0F-80D2-9215A226C576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB62D7BC-3024-4C0F-80D2-9215A226C576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB62D7BC-3024-4C0F-80D2-9215A226C576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB62D7BC-3024-4C0F-80D2-9215A226C576}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1141DAF4-63A4-4791-A1AD-058A129E7C3F}
+	EndGlobalSection
+EndGlobal

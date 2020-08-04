@@ -1,0 +1,44 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/user",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "5000"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/users",
+      "Key": "users",
+      "AuthenticationOptions": {
+        "AuthenticationProviderKey": "IdentityApiKey",
+        "AllowedScopes": []
+      }
+    },
+    {
+      "DownstreamPathTemplate": "/weatherforecast",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": "6000"
+        }
+      ],
+      "UpstreamPathTemplate": "/api/weather",
+      "Key": "weather"
+    }
+  ],
+  "Aggregates": [
+    {
+      "RouteKeys": [
+        "users",
+        "weather"
+      ],
+      "UpstreamPathTemplate": "/api/UsersAndWeather"
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:7000/"
+  }
+}
