@@ -23,3 +23,4 @@ scope = apiQuery
 - Run the MVC client and Identity Server
 - If user is not logged in it will automatically redirect to Identity Server
 - Once logged in, the MVC page will be redirected
+-
